@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="South Florida PC Repair specializes in in-home desktop, laptop, & network upgrades for those less tech-savvy. We offer flat rates and ensure customer satisfaction with no rush.">
+    <meta name="keywords" content="computer repair South Florida, Miami tech support, network setup Fort Lauderdale, small business IT">
+    <meta name="author" content="South Florida PC Repair">
+    <title>South Florida PC Repair - Computer Repair & Network Services</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        body {
+            background-color: #f5f6f5;
+            color: #333;
+        }
+
+        /* Header with Desktop Background */
+        header {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.pexels.com/photos/39284/macbook-notebook-office-workplace-39284.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 120px 20px;
+        }
+
+        header h1 {
+            font-size: 2.8em;
+            font-family: 'Pacifico', cursive;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        header p {
+            font-size: 1.3em;
+            margin: 15px 0;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 12px 30px;
+            background-color: #FF6F61;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            margin-top: 20px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #e55a50;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #40C4FF;
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 1.2em;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #FF6F61;
+        }
+
+        /* Sections */
+        section {
+            padding: 50px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            color: #40C4FF;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.2em;
+            font-weight: 700;
+        }
+
+        /* Services */
+        .services-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 25px;
+            justify-content: center;
+        }
+
+        .service-card {
+            background-color: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .service-card h3 {
+            color: #FF6F61;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+
+        .service-card p {
+            font-size: 1em;
+            color: #555;
+        }
+
+        /* Contact Form */
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-form label {
+            display: block;
+            margin: 15px 0 5px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            font-size: 1em;
+        }
+
+        .contact-form button {
+            background-color: #FF6F61;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1.1em;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-form button:hover {
+            background-color: #e55a50;
+        }
+
+        .contact-info {
+            text-align: center;
+            margin-top: 15px;
+            font-size: 1em;
+            color: #555;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #40C4FF;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 30px;
+        }
+
+        footer p {
+            font-size: 1.1em;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.2em;
+            }
+
+            header p {
+                font-size: 1.1em;
+            }
+
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+
+            .service-card {
+                width: 100%;
+            }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>South Florida PC Repair</h1>
+        <p>Over 10 years of technical experience, we Specialize with In-Home Desktop, Laptop, & Network Upgrades.<br>We offer flat rates and take the time to ensure our customers are happy and never feel rushed.</p>
+        <a href="#contact" class="cta-button">Book Your Repair Today!</a>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+        <a href="#testimonials">Testimonials</a>
+    </nav>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>Computer Repair</h3>
+                <p>Virus removal, software troubleshooting, and hardware upgrades for your PC or Mac.</p>
+            </div>
+            <div class="service-card">
+                <h3>Network Setup</h3>
+                <p>Wi-Fi optimization, router setup, and small business network solutions.</p>
+            </div>
+            <div class="service-card">
+                <h3>Data Recovery</h3>
+                <p>Recover lost files from hard drives and set up secure backups.</p>
+            </div>
+            <div class="service-card">
+                <h3>On-Site Support</h3>
+                <p>We come to your home or small business in South Florida for fast, friendly service.</p>
+            </div>
+            <div class="service-card">
+                <h3>Computer Upgrade</h3>
+                <p>Includes transferal of all profile data and installation of programs which were previously on original machine.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section with FormSpree -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-form">
+            <form action="https://formspree.io/f/myznpkkq" method="POST">
+                <input type="hidden" name="_subject" value="New Support Ticket from South Florida PC Repair">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" placeholder="Your Phone Number">
+                
+                <label for="message">Describe Your Issue</label>
+                <textarea id="message" name="message" rows="5" placeholder="Tell us about your tech problem" required></textarea>
+                
+                <button type="submit">Submit Ticket</button>
+                <p class="contact-info">Call us at 954-282-9027</p>
+            </form>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <h2>What Our Customers Say</h2>
+        <p style="text-align: center;">"Upgraded my WiFi so now I can stream from every corner of my house!" - Susan D.<br>
+        "Retrieved all my documents from my old machine and got me going on an excellent machine in my price range." - Russel V.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 South Florida Repair. Licensed and Insured. Serving with Pride. 🌴💾</p>
+    </footer>
+
+    <!-- JavaScript for Form and Smooth Scrolling -->
+    <script>
+        // Form submission alert (commented out for live use)
+        // document.querySelector('form').addEventListener('submit', function(e) {
+        //     e.preventDefault();
+        //     alert('Thank you for submitting your ticket! We will get back to you soon.');
+        //     this.submit();
+        // });
+
+        // Smooth scrolling for nav links
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const section = document.querySelector(this.getAttribute('href'));
+                section.scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
